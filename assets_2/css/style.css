@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: antiquewhite;
+  background-color: rgb(244,244,244);
   color: rgb(146, 98, 57);
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -44,4 +44,44 @@ body {
   background-color:rgb(146, 98, 57);
   color:white;
 }
+/* main article */
+.art-top{
+  font-size: 17px;
+  background-color:rgb(146, 98, 57);
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  margin: 0;
+}
+.art-bottom{
+  font-size: 17px;
+  padding: 20px;
+  line-height: 1.6;
+  margin: 0;
+}
+/* bottom-articles */
+.bottom-articles{
+  font-size: 17px;
+}
+.article{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33.33%;
+  background-color: rgb(146, 98, 57);
+  text-align: justify;
+  line-height: 1.6;
+}
+.bottom-left, .bottom-right{
+  color: white;
+  margin: 0;
+  padding: 20px;
+  vertical-align: top;
+}
+.bottom-center{
+  background-color: rgb(244,244,244);
+  margin: 0;
+  padding: 20px;
+  vertical-align: top;
+}
+
 
