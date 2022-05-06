@@ -21,6 +21,7 @@ body {
   margin-top: 5px;
   white-space: nowrap;
   font-size: 50px;
+  text-overflow: ellipsis;
   
 }
 .welcome-text{
@@ -28,6 +29,7 @@ body {
   margin-bottom: 0;
   white-space: nowrap;
   font-size: 20px;
+  text-overflow: ellipsis;
 }
 .btn{
   display: inline-block;
@@ -41,6 +43,7 @@ body {
   overflow: hidden;
   font-size: 18px;
   text-decoration: none;
+  text-overflow: ellipsis;
   transition: background-color .5s;
 }
 .btn:hover{
